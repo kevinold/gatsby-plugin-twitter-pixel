@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-plugin-twitter-pixel",
+  "description": "Gatsby plugin to add twitter pixel onto a site",
+  "version": "1.0.0",
+  "author": "Kevin Old <kevinold@gmail.com> (https://www.twitter.com/kevinold)",
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  },
+  "keywords": ["gatsby", "gatsby-plugin", "twitter pixel"],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinold/gatsby-plugin-twitter-pixel"
+  }
+}
