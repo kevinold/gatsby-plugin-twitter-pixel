@@ -18,3 +18,7 @@ plugins: [
   },
 ]
 ```
+
+# Credit
+
+Thanks to https://github.com/gabeskipio/gatsby-plugin-facebook-pixel for a great base for this plugin!
