@@ -1,9 +1,7 @@
 import React from "react";
 
 exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
-  console.log("IN onRenderBody");
   if (process.env.NODE_ENV === `production`) {
-    console.log("SET HEAD COMPONENTS");
     return setHeadComponents([
       <script
         key={`gatsby-plugin-twitter-pixel`}
