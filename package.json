@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-twitter-pixel",
   "description": "Gatsby plugin to add twitter pixel onto a site",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Kevin Old <kevinold@gmail.com> (https://www.twitter.com/kevinold)",
   "devDependencies": {
     "babel-cli": "^6.24.1",
