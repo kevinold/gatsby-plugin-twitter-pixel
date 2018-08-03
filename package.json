@@ -4,7 +4,8 @@
   "version": "2.0.1",
   "author": "Kevin Old <kevinold@gmail.com> (https://www.twitter.com/kevinold)",
   "devDependencies": {
-    "babel-cli": "^6.24.1"
+    "babel-cli": "^6.24.1",
+    "cross-env": "^5.2.0"
   },
   "keywords": [
     "gatsby",
@@ -14,6 +15,7 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir .",
+    "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir ."
   },
   "repository": {
